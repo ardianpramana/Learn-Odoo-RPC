@@ -13,4 +13,4 @@ def get_uid():
     uid = common.authenticate(db, username, password, {})
     return uid
 
-print('Your user uid:', get_uid())
+# print('Your user uid:', get_uid())

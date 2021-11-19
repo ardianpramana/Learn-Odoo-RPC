@@ -17,7 +17,7 @@ data = {
             common.password,
             'res.partner',
             'search',
-            [()],
+            [[('name', '=', 'Ali')]],
             {
                 "context": {
                     "rpc_request": 1

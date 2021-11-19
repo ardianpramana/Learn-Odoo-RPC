@@ -17,7 +17,7 @@ data = {
             common.password,
             'res.partner',
             'search_read',
-            [()],
+            [[('name', '=', 'Ali')]],
             {
                 "fields": ["name", "email", "phone"],
                 "limit": 2,

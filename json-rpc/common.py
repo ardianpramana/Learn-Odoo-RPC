@@ -28,4 +28,4 @@ def get_uid():
         uid = res.get('result', False)
     return uid
 
-print('Your user uid:', get_uid())
+# print('Your user uid:', get_uid())
